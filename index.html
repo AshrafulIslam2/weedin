@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/75947b6ff2.js" crossorigin="anonymous"></script>
+
+    <style>
+        .album {
+            margin-top: 150px;
+        }
+
+        .position-absolute {
+            top: 0px;
+            left: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR START  -->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid ms-lg-5 ps-lg-5 me-lg-5 pe-lg-5 ms-md-5 ps-md-5 me-md-5 pe-md-5">
+            <a class="navbar-brand ms-5 ps-5 text-dark fw-bold" href="#">Ashraful Convention Hall</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="ms-auto pe-5 me-5">
+                    <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-dark active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-dark" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-dark" href="#">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-dark" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2 text-dark" href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END  -->
+
+    <!-- carousel  Strat  -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="/images/banner.png" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="/images/weeding1 (1).png" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="/images/weeding2.png" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="/images/weeding3.png" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- carousel  END  -->
+    <!-- Our Work START -->
+    <div class="container album ">
+        <div class="row mt-5">
+            <div class=" col-12 col-md-6 col-lg-6 col-sm-6">
+                <img src="images/wedding.png" alt="" srcset="" />
+            </div>
+            <div class=" col-12 col-md-6 col-lg-6 col-sm-6 mt-5">
+                <h1>Every moment is Precious</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button type="button" class="btn btn-primary w-50 border border-0 rounded-0">EXPLORE OUR ALBUM <img
+                        src="/icons/arrow-forward 1.svg" alt="" srcset=""></button>
+            </div>
+        </div>
+    </div>
+    <!-- our Work END  -->
+    <!-- Pricing Start  -->
+    <div class="row mt-5">
+        <div class="col-12 col-md-6 col-lg-3 col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title  h1  ">700$</h5>
+                    <h5 class="card-title  h2 ">Business fair</h5>
+                    <p class="card-text">For most businesses event
+                        like book fair, craft fair.</p>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Full space access</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Food arrangement</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Fmangement support</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Full Buffet</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Decoration design</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Billed as shift</p>
+                    </div>
+                    <a href="#" class="btn btn-primary rounded-4">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title  h1 ">500$</h5>
+                    <h5 class="card-title  h2 ">Weeding Basic</h5>
+                    <p class="card-text">For weddings with basic plan
+                        and limited item</p>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Full space access</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Food arrangement</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Fmangement support</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Full Buffet</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Decoration design</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Billed as shift</p>
+                    </div>
+
+                    <a href="#" class="btn btn-primary rounded-4">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 col-sm-6 ">
+
+            <div class="card bg-primary shadow-lg p-3 mb-5 rounded-4">
+                <span class="position-absolute me-5 translate-middle badge rounded-pill bg-danger">
+                    HOT
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+                <div class="card-body ">
+                    <h5 class="card-title  h1  text-white">600$</h5>
+                    <h5 class="card-title  h2  text-white">Weeding Plus</h5>
+                    <p class="card-text text-white">For most weddings with premium plans</p>
+                    <div>
+                        <p class=" text-white"><i class="fa-regular fa-circle-check"></i>Full space access</p>
+                        <p class=" text-white"><i class="fa-regular fa-circle-check"></i>Food arrangement</p>
+                        <p class=" text-white"><i class="fa-regular fa-circle-check"></i>Fmangement support</p>
+                        <p class=" text-white"><i class="fa-regular fa-circle-check"></i>Full Buffet</p>
+                        <p class=" text-white"><i class="fa-regular fa-circle-check"></i>Decoration design</p>
+                        <p class=" text-white"><i class="fa-regular fa-circle-check"></i>Billed as shift</p>
+                    </div>
+                    <a href="#" class="btn btn-primary  bg-white text-dark rounded-4">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title  h1 ">800$</h5>
+                    <h5 class="card-title  h2 ">Corporate Event</h5>
+                    <p class="card-text">For most corporate business & plan
+                        events
+                    </p>
+                    <div>
+                        <p><i class="fa-regular fa-circle-check"></i>Full space access</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Food arrangement</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Fmangement support</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Decoration design</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Billed as shift</p>
+                        <p><i class="fa-regular fa-circle-check"></i>Billed as shift</p>
+
+                    </div>
+                    <a href="#" class="btn btn-primary rounded-4">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pricing END  -->
+    <!-- Happy Clinet Start -->
+    <div class="container">
+        <h1 class="text-center">Happy Clients Says</h1>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row text-center my-auto d-flex justify-content-center">
+            <div class="col-12 col-md-6 col-lg-3 col-sm-6 shadow-lg border-4 rounded-2 me-3">
+                <p>Slate helps you see how
+
+                    many more days you need
+
+                    to work to reach your financial
+
+                    goal for the month and year</p>
+                <img src="/images/person 1.png" alt="" srcset="">
+                <h4>Ashraful Islam</h4>
+                <h5>Banker</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-sm-6 shadow-lg border-4 rounded-2 me-3">
+                <p>Slate helps you see how
+
+                    many more days you need
+
+                    to work to reach your financial
+
+                    goal for the month and year</p>
+                <img src="/images/person 2.png" alt="" srcset="">
+                <h4>Ashraful Islam</h4>
+                <h5>Banker</h5>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-sm-6 shadow-lg border-4 rounded-2">
+                <p>Slate helps you see how
+
+                    many more days you need
+
+                    to work to reach your financial
+
+                    goal for the month and year</p>
+                <img src="/images/person 3.png" alt="" srcset="">
+                <h4>Ashraful Islam</h4>
+                <h5>Banker</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Happy Client End  -->
+    <div class="container mt-5">
+        <h1 class="text-center">Frequently Asked Questions</h1>
+    </div>
+    <div class="container album ">
+        <div class="row mt-5">
+            <div class=" col-12 col-md-6 col-lg-6 col-sm-6">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until the collapse plugin adds the appropriate classes that we use to style each
+                                element. These classes control the overall appearance, as well as the showing and hiding
+                                via CSS transitions. You can modify any of this with custom CSS or overriding our
+                                default variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 col-md-6 col-lg-6 col-sm-6 mt-5">
+                <img src="/images/people.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+            </div>
+
+
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
